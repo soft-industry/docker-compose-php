@@ -27,7 +27,7 @@ db:
   expose:
     - "3306"
   environment:
-    MYSQL_ROOT_PASSWORD: zhopa
+    MYSQL_ROOT_PASSWORD: 123456
   volumes:
     - ./mysql/databases:/var/lib/mysql
     - ./mysql/dump:/docker-entrypoint-initdb.d

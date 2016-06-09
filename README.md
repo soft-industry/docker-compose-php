@@ -26,7 +26,7 @@ On Windows 10 [disable Hyper-V](http://www.poweronplatforms.com/enable-hyper-v/)
 # Run
 
 * On Linux.
-	$ git clone https://github.com/devigner/docker-compose-php.git
+	$ git clone https://git.soft-industry.com/docker-compose-php.git
 	$ cd docker-compose-php
 	$ docker-compose build
 	$ docker-compose up -d

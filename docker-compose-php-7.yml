@@ -5,6 +5,8 @@ phpfpm:
     service: phpfpm
   links:
     - db:db
+  volumes:
+    - ./app:/var/www/html
 
 # NGINX
 nginx:

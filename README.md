@@ -9,7 +9,7 @@ Create the ultimate development environment.
 # Install
 
 Install docker and [docker-compose](https://docs.docker.com/compose/install/)
-On Windows 10 [disable Hyper-V](http://www.poweronplatforms.com/enable-hyper-v/).
+On Windows 10 [disable Hyper-V](http://www.poweronplatforms.com/enable-disable-hyper-v-windows-10-8/).
 
 # Project setup
 

@@ -1,0 +1,5 @@
+
+phpfpm:
+  build: php-fpm-5.3
+  volumes:
+    - ./log/php-fpm:/var/log/php-fpm

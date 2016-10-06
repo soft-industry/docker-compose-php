@@ -1,6 +1,6 @@
 # docker-compose-php
 
-Docker Compose setup to run php5.6 or php7 with php-fpm via nginx and mysql.
+Docker Compose setup to run php5.3, php5.6 or php7 with php-fpm via nginx and mysql.
 
 # Purpose
 
@@ -45,7 +45,7 @@ By default the setup creates a php5.6 environment, see docker-compose-php-7.yml 
 * On Linux.
 	- Open url http://localhost:8000
 * On Windows 10.
-	- In the Docker quickstart terminal and run `docker-machine ls`
+	- In the Docker quickstart terminal run `docker-machine ls`
 	- Open the ip of your docker machine with port 8000.
 
 # Command reference

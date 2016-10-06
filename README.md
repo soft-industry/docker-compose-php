@@ -8,7 +8,7 @@ Create the ultimate development environment.
 
 # Install
 
-Install docker and [docker-compose](https://docs.docker.com/compose/install/)
+Install Docker and [docker-compose](https://docs.docker.com/compose/install/).
 On Windows 10 install Docker Toolbox and [disable Hyper-V](http://www.poweronplatforms.com/enable-disable-hyper-v-windows-10-8/).
 
 # Project setup
@@ -26,10 +26,10 @@ On Windows 10 install Docker Toolbox and [disable Hyper-V](http://www.poweronpla
 # Run
 
 * On Linux.
-	$ git clone https://git.soft-industry.com/docker-compose-php.git
-	$ cd docker-compose-php
-	$ docker-compose build
-	$ docker-compose up -d
+	- `git clone https://github.com/soft-industry/docker-compose-php.git`
+	- `cd docker-compose-php`
+	- `docker-compose build`
+	- `docker-compose up -d`
 * On Windows 10.
 	- Place the project within the Users directory
 	- Open Docker quickstart terminal
@@ -53,4 +53,4 @@ By default the setup creates a php5.6 environment, see docker-compose-php-7.yml 
 * `docker-compose exec db bash` will open shell on the running db container.
 * `docker-compose stop` will stop running containers.
 * `docker-compose rm db` will erase built db container. So when you run `docker-compose up` it will be built again, and the initial dump will apply.
-* `$ docker exec some-mysql-contaner sh -c 'exec mysqldump -uroot -p"$MYSQL_ROOT_PASSWORD" db_name' > /some/path/on/your/host/db_name.sql` will make dump from `some-mysql-contaner` and database `db_name` into local file
+* `$ docker exec some-mysql-contaner sh -c 'exec mysqldump -uroot -p"$MYSQL_ROOT_PASSWORD" db_name' > /some/path/on/your/host/db_name.sql` will make dump from `some-mysql-contaner` and database `db_name` into local file.

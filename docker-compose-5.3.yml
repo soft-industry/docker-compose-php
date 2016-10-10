@@ -16,7 +16,7 @@ nginx:
   links:
     - phpfpm:phpfpm
   volumes:
-    - ./nginx/conf.d:/etc/nginx/conf.d/conf.d
+    - ./nginx/conf.d:/etc/nginx/conf.d
     - ./app:/var/www/html
     - ./log/nginx:/var/log/nginx
 

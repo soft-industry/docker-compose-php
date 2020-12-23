@@ -6,7 +6,7 @@ RUN apt-get update && apt-get install -y \
 	mysql-client \
     libfreetype6-dev \
     libjpeg62-turbo-dev \
-    libpng12-dev \
+    libpng-dev \
 	&& docker-php-ext-install pdo_mysql \
 	&& docker-php-ext-install iconv \
 	&& docker-php-ext-install mcrypt \
